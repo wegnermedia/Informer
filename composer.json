@@ -1,6 +1,8 @@
 {
     "name": "wegnermedia/informer",
-    "description": "",
+    "description": "Flash Message Support for Laravel.",
+    "keywords": ["laravel", "message"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Stefan Wegner",
