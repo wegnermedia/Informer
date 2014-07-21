@@ -20,6 +20,14 @@ Next, update `app/config/app.php` to include a reference to this package's servi
 ]
 ```
 
+Next, add the facade `app/config/app.php`.
+
+```php
+'aliases' => [
+    'Informer' => 'Wegnermedia\Informer\Facade'
+]
+```
+
 Last, but not least, include the nessesary view partial in your master template
 
 ```blade
