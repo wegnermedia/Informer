@@ -21,6 +21,26 @@ class Informer
 	}
 
 	/**
+	 * Set a info Message
+	 *
+	 * @return void
+	 **/
+	public function info($title, $body, $modal = false)
+	{
+		$this->make('info', $title, $body, $modal);
+	}
+
+	/**
+	 * Set a hint Message
+	 *
+	 * @return void
+	 **/
+	public function hint($title, $body, $modal = false)
+	{
+		$this->make('hint', $title, $body, $modal);
+	}
+
+	/**
 	 * Set a success Message
 	 *
 	 * @return void
@@ -28,6 +48,36 @@ class Informer
 	public function success($title, $body, $modal = false)
 	{
 		$this->make('success', $title, $body, $modal);
+	}
+
+	/**
+	 * Set a warning Message
+	 *
+	 * @return void
+	 **/
+	public function warning($title, $body, $modal = false)
+	{
+		$this->make('warning', $title, $body, $modal);
+	}
+
+	/**
+	 * Set a danger Message
+	 *
+	 * @return void
+	 **/
+	public function danger($title, $body, $modal = false)
+	{
+		$this->make('danger', $title, $body, $modal);
+	}
+
+	/**
+	 * Set a error Message
+	 *
+	 * @return void
+	 **/
+	public function error($title, $body, $modal = false)
+	{
+		$this->make('error', $title, $body, $modal);
 	}
 
 	/**
