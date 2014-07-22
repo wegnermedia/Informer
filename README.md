@@ -24,7 +24,7 @@ Next, add the facade `app/config/app.php`.
 
 ```php
 'aliases' => [
-    'Informer' => 'Wegnermedia\Informer\Facade'
+    'Informer' => 'Wegnermedia\Informer\Facades\Informer'
 ]
 ```
 
