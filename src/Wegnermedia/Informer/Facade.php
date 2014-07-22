@@ -1,4 +1,4 @@
-<?php namespace Wegnermedia\Informer;
+<?php namespace Wegnermedia\Informer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
